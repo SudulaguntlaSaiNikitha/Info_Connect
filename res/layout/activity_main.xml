@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp"
+android:background="#FFD700"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- Row 1: Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- Button 5: Mental Health -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="112dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnPCOD"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:onClick="onDiseaseButtonClick"
+
+                android:text="SCHEMS" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- Button 5: Mental Health -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="112dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnPCOS"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:onClick="onDiseaseButtonClick"
+                android:text="SCHORLARSHIPS" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <!-- Row 2: Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- Button 5: Mental Health -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="112dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnjobs"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:onClick="onDiseaseButtonClick"
+                android:text="JOBS" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!-- Row 3: Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- Button 5: news upodates -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="112dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+
+            <Button
+                android:id="@+id/newsupdates"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:onClick="onDiseaseButtonClick"
+                android:text="NEWS UPDATES" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <!-- Row 3: Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!-- Button 5: human-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="112dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1">
+
+
+            <Button
+                android:id="@+id/btnhumanrights"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:onClick="onDiseaseButtonClick"
+                android:text="HUMAN RIGHTS" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <!-- TextView to display information about the selected disease -->
+
+</LinearLayout>
